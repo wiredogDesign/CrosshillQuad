@@ -1,0 +1,38 @@
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw; height: 100vh;
+    background: rgb(148, 170, 179);
+}
+
+header {
+    width:100vw; height: 20vh;
+    background: rgb(22, 106, 130);
+}
+
+section {
+    display: flex; flex-wrap: nowrap;
+    height: 60vh;
+}
+
+
+figure {
+    margin: 1vw;
+    border: 1px dashed grey;
+}
+
+figcaption {
+
+}
+
+img {
+    display: block;
+}
+
+footer {
+    height: 20vh;
+    background: rgb(22, 106, 130);
+}
