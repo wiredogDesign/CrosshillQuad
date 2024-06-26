@@ -82,18 +82,18 @@ footer {
 
 /* keep editing toolbar compact in top right corner */
 .mv-bar.mv-ui:not(.mv-fixed) {
-	position: absolute;
-    top: 94%;
+	position: fixed;
+    top: 86%;
     right: 1%;
 }
 
 /* resize add container button */
 .mv-ui.mv-add.mv-add-image_container {
+	position: fixed;
+	top: 86%;
 	height: 6vh;
-	position: absolute;
-	left: .5rem;
+	left: 1%;
 	padding: 0 .5rem;
-	top: 73vh;
 	z-index: 2;
 }
 
