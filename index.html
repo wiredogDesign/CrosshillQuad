@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="dist/css/mavo-min.css">
     <script src="dist/js/mavo-min.js"></script>
     <script src="dist/js/tinymce-min.js"></script>
-    <script src="dist/js/dragula-min.js"></script>
+    <!-- <script src="dist/js/dragula-min.js"></script> -->
 </head>
 <body 
     mv-plugins="autoload"
     mv-app="cqc" 
-    mv-storage="https://github.com/wiredogDesign/CrosshillQuad/blob/main">
+    mv-storage="https://github.com/wiredogDesign/CrosshillQuad">
     <header>
         <h1>Crosshill Quad Community</h1>
         <h2>From soup to nuts</h2>
@@ -21,22 +21,23 @@
     <main>
         
         <figure 
-            property="image-container" 
+            property="image_container" 
             mv-multiple>
             <img 
-                mv-upload-path="dist/img"
+                mv-upload-path="dist/img/"
                 property="image"
                 loading="lazy" 
-                src="dist/img"
-                alt="[ImageDescription]"
+                src="dist/img/"
+                alt="[image_description]"
                 width="300px"
                 height="300px"
-            />
+                />
             <span 
                 class="image-description"
                 class="tinymce"
-                mv-tinymce-toolbar="" 
-                property="ImageDescription">
+                mv-tinymce-toolbar="bold" 
+                property="image_description"
+                />
             </span>
             
             <figcaption 
