@@ -1,60 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crosshill Quad Community</title>
     <link rel="stylesheet" href="dist/css/horizontal_layout.css">
+    <link rel="stylesheet" href="dist/css/mavo-min.css">
+    <script src="dist/js/mavo-min.js"></script>
+    <script src="dist/js/tinymce-min.js"></script>
 </head>
-<body>
-    <header></header>
-    <section>
-        <figure>
-            <figcaption></figcaption>
+<body 
+    mv-app="cqc" 
+    mv-storage="https://github.com/wiredogDesign/CrosshillQuad/blob/main">
+    <header>
+        <h1>Crosshill Quad Community</h1>
+        <h2>From soup to nuts</h2>
+    </header>
+    <main>
+        <figure 
+            property="image-container" 
+            mv-multiple>
+            <img 
+                mv-upload-path="dist/img"
+                property="image"
+                loading="lazy" 
+                src="dist/img"
+                alt="[ImageDescription]"
+            />
+            <span 
+                class="image-description" 
+                property="ImageDescription">
+            </span>
+            
+            <figcaption 
+                class="tinymce" 
+                mv-tinymce-toolbar="bold italic" 
+                property="BodyText">
+            </figcaption>
+        
         </figure>
-        <figure>
-            <figcaption></figcaption>
-        </figure>
-        <figure>
-            <figcaption></figcaption>
-        </figure>
-        <figure>
-            <figcaption></figcaption>
-        </figure>
-        <figure>
-            <figcaption></figcaption>
-        </figure>
-        <figure>
-            <figcaption></figcaption>
-        </figure>
-        <figure>
-            <figcaption></figcaption>
-        </figure>
-        <figure>
-            <figcaption></figcaption>
-        </figure>
-        <figure>
-            <figcaption></figcaption>
-        </figure>
-        <figure>
-            <figcaption></figcaption>
-        </figure>
-        <figure>
-            <figcaption></figcaption>
-        </figure>
-        <figure>
-            <figcaption></figcaption>
-        </figure>
-        <figure>
-            <figcaption></figcaption>
-        </figure>
-        <figure>
-            <figcaption></figcaption>
-        </figure>
-        <figure>
-            <figcaption></figcaption>
-        </figure>
-    </section>
-    <footer></footer>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>

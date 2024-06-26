@@ -8,31 +8,69 @@ body {
     background: rgb(148, 170, 179);
 }
 
-header {
+header, footer {
+    position: fixed;
     width:100vw; height: 20vh;
     background: rgb(22, 106, 130);
+    padding: 1vh;
 }
 
-section {
+h1, h2 {
+    color: whitesmoke;
+}
+
+h1 {
+    font-size: 270%;
+}
+
+h2 {
+    font-size: 217%;
+}
+
+main {
     display: flex; flex-wrap: nowrap;
+    position: absolute;
+    top: 20vh;
     height: 60vh;
 }
 
-
 figure {
-    margin: 1vw;
-    border: 1px dashed grey;
+    margin: 1vh;
 }
 
 figcaption {
-
+    padding: .5vh;
+    background: whitesmoke;
 }
 
 img {
-    display: block;
+    display: inline-block;
+    height: 55vh;
+    max-height: 100%;
 }
 
 footer {
-    height: 20vh;
-    background: rgb(22, 106, 130);
+    bottom: 0;
+}
+
+/* Mavo related */
+
+/* keep editing toolbar compact in top right corner */
+.mv-bar.mv-ui:not(.mv-fixed) {
+	position: absolute;
+	right: 7px;
+}
+
+/* hide the ugly add image button */
+.mv-ui.mv-add.mv-add-image-container {
+	
+}
+
+/* hides the alt text editor when not editing */
+.image-description {
+    display: none
+}
+
+[mv-mode=edit].image-description {
+    display: initial
 }
