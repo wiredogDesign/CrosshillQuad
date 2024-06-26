@@ -77,6 +77,7 @@ figcaption {
 
 img {
     display: inline-block;
+    width: auto;
     height: 65vh;
     max-height: 100%;
 }
