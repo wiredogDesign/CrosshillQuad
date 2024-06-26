@@ -3,7 +3,8 @@
 	"image_container": [
 		{
 			"image": "https://wiredogdesign.github.io/CrosshillQuad/dist/img/F2224028-0821-47A2-BE9A-2249FF32372D.jpeg",
-			"image_description": "A freshly painted white wall"
+			"image_description": "A freshly painted white wall",
+			"image_caption": "\n            "
 		},
 		{
 			"image": "https://wiredogdesign.github.io/CrosshillQuad/dist/img/0ECFC770-9C66-468C-9405-450BFE750AFE.jpeg",
