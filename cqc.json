@@ -4,16 +4,17 @@
 		{
 			"image": "https://wiredogdesign.github.io/CrosshillQuad/dist/img/F2224028-0821-47A2-BE9A-2249FF32372D.jpeg",
 			"image_description": "A freshly painted white wall",
-			"image_caption": "\n            "
+			"image_caption": "In the beginning"
 		},
 		{
 			"image": "https://wiredogdesign.github.io/CrosshillQuad/dist/img/0ECFC770-9C66-468C-9405-450BFE750AFE.jpeg",
-			"image_description": "Cushions & a large couch abandoned on a grassy area"
+			"image_description": "Cushions & a large couch abandoned on a grassy area",
+			"image_caption": "Landlords ?"
 		},
 		{
 			"image": "https://wiredogdesign.github.io/CrosshillQuad/dist/img/0CD10AB1-E6F8-4476-8DCD-B0EE3BE60250.jpeg",
 			"image_description": "More household waste dumped in the quad",
-			"BodyText": "<p>Rogue landlords!</p>"
+			image_caption": "Rogue Landlords ?"
 		}
 	]
 }
