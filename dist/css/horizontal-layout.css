@@ -1,33 +1,39 @@
 :root {
-    --grey:     hwb(197 58% 30%);
-    --white:    hwb(0 96% 4%);
-    --black:    hwb(0 12% 88%);
-    --blue:     hwb(193 9% 49%);
+    --grey:     hsl(197, 17%, 64%);
+    --white:    hsl(0, 0%, 96%);
+    --black:    hsl(0, 0%, 12%);
+    --blue:     hsl(193, 70%, 30%);
+    --trans:    hsla(0, 0%, 96%, 0.8);
 }
 
 * {
-    margin: 0; padding: 0;
+    margin: 0; 
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    width: 100vw; height: 100vh;
+    width: 100vw; 
+    height: 100vh;
     background: var(--grey);
     font-family: system-ui, sans-serif;
-
-    
 }
 
 header, footer {
     position: fixed;
-    width:100vw; height: 15vh;
-    background: var(--blue);
+    width:100vw; 
+    height: 15vh;
+    background: 0 0/cover url(/dist/gfx/triangles.svg), hsl(84.1, 51.2%, 31.4%);
+    background-blend-mode: hue;
     padding: 3vh 1.5vh 0;
 }
 
 header {
-    text-align: right;
-    
+    text-align: right; 
+}
+
+footer {
+    bottom: 0;
 }
 
 @font-face {
@@ -39,28 +45,29 @@ h1, h2 {
     font-family: typed;
 }
 
-
 h1 {
     font-size: 270%;
     color: var(--white);
 }
 
 h2 {
+    padding-right: 0.5em;
     font-size: 217%;
     color: var(--grey);
 }
 
 main {
-    display: flex; flex-wrap: nowrap;
-    position: absolute;
-    top: 20vh;
+    display: flex; 
+    flex-wrap: nowrap;
+    gap: 1vh;
+    position: absolute; 
+    top: 16vh;
     height: 60vh;
 }
 
 figure {
     flex: 0 0 auto;
     min-width: 250px;
-    margin: 1vh;
 }
 
 figcaption {
@@ -74,10 +81,6 @@ img {
     max-height: 100%;
 }
 
-footer {
-    bottom: 0;
-}
-
 /* Mavo related */
 
 /* keep editing toolbar compact in top right corner */
@@ -87,22 +90,24 @@ footer {
     right: 1%;
 }
 
-/* resize add container button */
-.mv-ui.mv-add.mv-add-image_container {
-	position: fixed;
-	top: 86%;
-	height: 3.4vh;
-	left: 1%;
-	padding: 0 .5rem;
-	z-index: 2;
+/* hide the github blurb */
+.mv-status span {
+	display: none;
 }
 
 /* hides the alt text editor when not editing */
 .image-description {
-    display: none
+    display: none;
 }
 
-[mv-mode=edit].image_description {
-    display: initial
+[mv-mode=edit].image-description {
+    display: initial;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    padding: 0.3rem;
+    background: var(--trans);
 }
 
