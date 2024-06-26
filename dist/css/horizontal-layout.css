@@ -20,7 +20,7 @@ body {
 
 header, footer {
     position: fixed;
-    width:100vw; height: 20vh;
+    width:100vw; height: 15vh;
     background: var(--blue);
     padding: 3vh 1.5vh 0;
 }
