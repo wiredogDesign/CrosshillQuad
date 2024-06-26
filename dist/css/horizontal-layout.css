@@ -58,6 +58,7 @@ main {
 }
 
 figure {
+    flex: 0 0 auto;
     min-width: 250px;
     margin: 1vh;
 }
