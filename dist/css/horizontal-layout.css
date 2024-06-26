@@ -87,10 +87,13 @@ footer {
 }
 
 /* resize add container button */
-.mv-ui.mv-add.mv-add-image-container {
+.mv-ui.mv-add.mv-add-image_container {
 	height: 6vh;
-    margin-top: 1vh;
-    padding: 1rem;
+	position: absolute;
+	left: .5rem;
+	padding: 0 .5rem;
+	top: 73vh;
+	z-index: 2;
 }
 
 /* hides the alt text editor when not editing */
@@ -98,6 +101,7 @@ footer {
     display: none
 }
 
-[mv-mode=edit].image-description {
+[mv-mode=edit].image_description {
     display: initial
 }
+
