@@ -1,3 +1,10 @@
+:root {
+    --grey:     hwb(197 58% 30%);
+    --white:    hwb(0 96% 4%);
+    --black:    hwb(0 12% 88%);
+    --blue:     hwb(193 9% 49%);
+}
+
 * {
     margin: 0; padding: 0;
     box-sizing: border-box;
@@ -5,26 +12,42 @@
 
 body {
     width: 100vw; height: 100vh;
-    background: rgb(148, 170, 179);
+    background: var(--grey);
+    font-family: system-ui, sans-serif;
+
+    
 }
 
 header, footer {
     position: fixed;
     width:100vw; height: 20vh;
-    background: rgb(22, 106, 130);
-    padding: 1vh;
+    background: var(--blue);
+    padding: 3vh 1.5vh 0;
+}
+
+header {
+    text-align: right;
+    
+}
+
+@font-face {
+    font-family: "typed";
+    src: url("../../dist/fonts/typed.woff2");
 }
 
 h1, h2 {
-    color: whitesmoke;
+    font-family: typed;
 }
+
 
 h1 {
     font-size: 270%;
+    color: var(--white);
 }
 
 h2 {
     font-size: 217%;
+    color: var(--grey);
 }
 
 main {
@@ -41,7 +64,7 @@ figure {
 
 figcaption {
     padding: .5vh;
-    background: whitesmoke;
+    background: var(--white);
 }
 
 img {
@@ -59,12 +82,14 @@ footer {
 /* keep editing toolbar compact in top right corner */
 .mv-bar.mv-ui:not(.mv-fixed) {
 	position: absolute;
-	right: 7px;
+    top: 94%;
+    right: 1%;
 }
 
 /* resize add container button */
 .mv-ui.mv-add.mv-add-image-container {
 	height: 6vh;
+    margin-top: 1vh;
     padding: 1rem;
 }
 
