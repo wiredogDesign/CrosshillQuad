@@ -35,6 +35,7 @@ main {
 }
 
 figure {
+    min-width: 250px;
     margin: 1vh;
 }
 
@@ -61,9 +62,10 @@ footer {
 	right: 7px;
 }
 
-/* hide the ugly add image button */
+/* resize add container button */
 .mv-ui.mv-add.mv-add-image-container {
-	
+	height: 6vh;
+    padding: 1rem;
 }
 
 /* hides the alt text editor when not editing */
