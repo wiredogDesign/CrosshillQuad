@@ -23,8 +23,7 @@ header, footer {
     position: fixed;
     width:100vw; 
     height: 15vh;
-    background: 0 0/cover url(../../dist/gfx/triangles.svg), hsl(84.1, 51.2%, 31.4%);
-    background-blend-mode: hue;
+    background: 0 0/cover url(../../dist/gfx/triangles.svg);
     padding: 3vh 1.5vh 0;
 }
 
