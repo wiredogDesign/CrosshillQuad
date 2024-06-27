@@ -87,7 +87,7 @@ img {
 /* keep editing toolbar compact in top right corner */
 .mv-bar.mv-ui:not(.mv-fixed) {
 	position: fixed;
-    top: 86%;
+    top: 94%;
     right: 1%;
 }
 

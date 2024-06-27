@@ -7,8 +7,6 @@
     <link rel="stylesheet" href="dist/css/horizontal-layout.css">
     <link rel="stylesheet" href="dist/css/mavo-min.css">
     <script src="dist/js/mavo-min.js"></script>
-    <script src="dist/js/tinymce-min.js"></script>
-    <!-- <script src="dist/js/dragula-min.js"></script> -->
 </head>
 <body 
     mv-app="cqc" 
@@ -27,14 +25,12 @@
                 loading="lazy" 
                 src="dist/img"
                 alt="[image_description]"
-                width="100%"
-                />
+                width="100%"/>
             <span 
                 class="image-description"
                 class="tinymce"
                 mv-tinymce-toolbar="bold" 
-                property="image_description"
-                />
+                property="image_description">
             </span>
             
             <figcaption 
@@ -50,5 +46,7 @@
     <div class="mv-bar mv-ui">
         <button class="mv-add mv-add-image_container">+</button>
     </div>
+    <script src="dist/js/tinymce-min.js"></script>
+    <script src="dist/js/dragula-min.js"></script>
 </body>
 </html>
