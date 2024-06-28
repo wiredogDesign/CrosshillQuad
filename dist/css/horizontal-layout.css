@@ -74,6 +74,13 @@ figcaption {
     background: var(--white);
 }
 
+aside {
+    width: 100%;
+    height: 50%;
+    padding: .5rem;
+    background: var(--trans)
+}
+
 img {
     display: inline-block;
     width: auto;
@@ -111,3 +118,8 @@ img {
     background: var(--trans);
 }
 
+/* provides a target area to add a new image */
+img.mv-empty {
+	width: 100%;
+	height: 100%;
+}
