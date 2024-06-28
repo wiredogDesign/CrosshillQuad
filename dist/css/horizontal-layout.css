@@ -19,23 +19,23 @@ body {
     height: 100vh;
     background: var(--grey);
     font-family: system-ui, sans-serif;
+    background: linear-gradient(var(--cqc_blue), var(--cqc_lilac));
 }
 
 header, footer {
     position: fixed;
     width:100vw; 
-    height: 15vh;
     padding: 3vh 1.5vh 0;
 }
 
 header {
+    height: 20vh;
     text-align: right;
     background-color: var(--cqc_blue);
 }
 
 footer {
     bottom: 0;
-    background-color: var(--cqc_lilac);
 }
 
 @font-face {
@@ -62,7 +62,7 @@ main {
     flex-wrap: nowrap;
     gap: 1vh;
     position: absolute; 
-    top: 16vh;
+    top: 20vh;
     height: 65vh;
 }
 
