@@ -8,9 +8,7 @@
     <script src="dist/js/mavo-min.js"></script>
     <link rel="stylesheet" href="dist/css/mavo-min.css">
 </head>
-<body 
-    mv-app="cqc" 
-    mv-storage="https://github.com/wiredogDesign/CrosshillQuad/blob/main">
+<body mv-app="cqc" mv-storage="https://github.com/wiredogDesign/CrosshillQuad/blob/main">
     
     <header>
         <h1>Crosshill Quad Community 2015 &gt; </h1>
@@ -19,34 +17,13 @@
 
     <main>
         <figure property="image_container" mv-multiple>
-            <img 
-                mv-upload-path="dist/img"
-                property="image"
-                loading="lazy" 
-                src="dist/img"
-                alt="[image_description]"
-                width="100%">
+            <img mv-upload-path="dist/img" property="image" loading="lazy" src="dist/img" alt="[image_description]" width="100%">
 
-            <span 
-                class="image-description"
-                class="tinymce"
-                mv-tinymce-toolbar="" 
-                property="image_description">
-            </span>
+            <span class="image-description" class="tinymce" mv-tinymce-toolbar="" property="image_description"></span>
 
             <figcaption property="image_caption">
-                
-                <h1 
-                    property="caption_header"
-                    class="tinymce" 
-                    mv-tinymce-toolbar="">
-                </h1>
-                
-                <p 
-                    property="caption_body"
-                    class="tinymce" 
-                    mv-tinymce-toolbar="bold italic">
-                </p>
+                <h1 property="caption_header"></h1>     
+                <p property="caption_body" class="tinymce" mv-tinymce-toolbar="bold italic"></p>
             </figcaption>
         </figure>
     </main>
