@@ -13,15 +13,15 @@
 			"image_description": "A view of the quad from a high window - it looks dull and uninteresting",
 			"image_caption": {
 				"caption_body": "<p>The quad was a bit lacking in character</p>",
-				"caption_header": "In the beginning"
+				"caption_header": "Nothing much to see here"
 			}
 		},
 		{
 			"image": "https://wiredogdesign.github.io/CrosshillQuad/dist/img/99BEFDC0-1828-4B15-A078-F0E5EFA50C77_1_105_c.jpeg",
 			"image_description": "Items of household furniture dumped in an open private space",
 			"image_caption": {
-				"caption_body": "<p>And the dumping continues</p>",
-				"caption_header": "In the beginning"
+				"caption_body": "Just seemed to be a dumping ground for landlords",
+				"caption_header": "Apart from ..."
 			}
 		},
 		{
@@ -29,7 +29,7 @@
 			"image_description": "A person clearing soil to make way for new plantings ",
 			"image_caption": {
 				"caption_body": "<p>But soon help is at hand</p>",
-				"caption_header": "In the beginning"
+				"caption_header": "But it didn't take long"
 			}
 		}
 	]
