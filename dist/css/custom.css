@@ -47,9 +47,9 @@ main {
 
 figure {
     display: flex;
-    flex: 0 1 40vw;
+    flex: 0 0 40vw;
     /* min-width: 560px; */
-    max-height: 55vh;
+    max-height: 65vh;
     margin-right: 1vw;
     padding: 1vw 2vw 1vw 1vw;
     background: var(--trans);
@@ -72,8 +72,9 @@ img {
     max-height: 60vh;
 }
 
-h1, h2 {
+figure h1 {
     color: var(--blue);
+    font-size: calc(var(--font_size) * 0.5);
 }
 
 p {
