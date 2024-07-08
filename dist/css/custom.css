@@ -6,7 +6,7 @@
     --trans:        hsla(0, 0%, 96%, 0.8);
     --cqc_blue:     hsl(181, 59%, 83%);
     --cqc_lilac:    hsl(317, 19%, 71%);
-    --font_size:    clamp(30px, 5vw, 50px);
+    --font_size:    clamp(30px, 5vw, 45px);
 }
 
 * {
@@ -26,9 +26,14 @@ header {
     position: fixed;
     top: 0;
     width: 100vw;
-    height: 15vh;
+    /* height: 15vh; */
     padding: 1vw;
     background: var(--cqc_blue);
+}
+
+header h1,
+header h2 {
+    color: var(--blue);
 }
 
 header h1 {
@@ -65,7 +70,7 @@ figure:hover {
 
 figcaption {
     min-width: 10vw;
-    padding: 10px 20px;
+    padding: 0 20px;
 }
 
 img {
@@ -73,8 +78,10 @@ img {
 }
 
 figure h1 {
+    padding-bottom: 1vh;
+    font-size: calc(var(--font_size) * 0.38);
+    line-height: 1.2 !important;
     color: var(--blue);
-    font-size: calc(var(--font_size) * 0.5);
 }
 
 p {
