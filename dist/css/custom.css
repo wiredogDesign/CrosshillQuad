@@ -1,0 +1,134 @@
+:root {
+    --grey:         hsl(197, 17%, 64%);
+    --white:        hsl(0, 0%, 96%);
+    --black:        hsl(0, 0%, 12%);
+    --blue:         hsl(193, 70%, 30%);
+    --trans:        hsla(0, 0%, 96%, 0.8);
+    --cqc_blue:     hsl(181, 59%, 83%);
+    --cqc_lilac:    hsl(317, 19%, 71%);
+    --font_size:    clamp(30px, 5vw, 50px);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    background: linear-gradient(var(--cqc_blue), var(--cqc_lilac));
+    background-attachment: fixed;
+    font-family: system-ui, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 15vh;
+    padding: 1vw;
+    background: var(--cqc_blue);
+}
+
+header h1 {
+    font-size: var(--font_size);
+}
+
+header h2 {
+    font-size: calc(var(--font_size) / 1.2);
+}
+
+main {
+    display: flex;
+    margin-top: 18vh;
+    padding: 1vw;
+}
+
+figure {
+    display: flex;
+    flex: 0 1 40vw;
+    /* min-width: 560px; */
+    max-height: 55vh;
+    margin-right: 1vw;
+    padding: 1vw 2vw 1vw 1vw;
+    background: var(--trans);
+    border-radius: 0.5vw;
+    filter: drop-shadow(0 0 0.6rem var(--blue));
+    transition: filter .3s ease;
+}
+
+figure:hover {
+    filter: drop-shadow(0 0 1rem var(--trans));
+
+}
+
+figcaption {
+    min-width: 10vw;
+    padding: 10px 20px;
+}
+
+img {
+    max-height: 60vh;
+}
+
+h1, h2 {
+    color: var(--blue);
+}
+
+p {
+    color: var(--black);
+}
+
+@media screen and (max-width: 660px) {
+    main {
+        flex-direction: column;
+    }
+
+    img {
+        max-height: 30vh;
+    }
+
+    figure {
+        margin-right: 0;
+        margin-bottom: 1vw;
+        padding: 0;
+    }
+}
+
+
+/* Mavo related */
+
+/* keep editing toolbar compact in bottom right corner */
+.mv-bar.mv-ui:not(.mv-fixed) {
+	position: fixed;
+    top: 94%;
+    right: 1%;
+}
+
+/* hide the github blurb */
+.mv-status span {
+	display: none;
+}
+
+/* hides the alt text editor when not editing */
+.image-description {
+    display: none;
+}
+
+[mv-mode=edit].image-description {
+    display: initial;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    padding: 0.3rem;
+    background: var(--trans);
+}
+
+/* provides a target area to add a new image */
+img.mv-empty {
+	width: 100%;
+	height: 100%;
+}
