@@ -79,7 +79,7 @@ img {
 
 figure h1 {
     padding-bottom: 1vh;
-    font-size: calc(var(--font_size) * 0.38);
+    font-size: calc(var(--font_size) / 1.7);
     line-height: 1.2 !important;
     color: var(--blue);
 }
@@ -94,13 +94,21 @@ p {
     }
 
     img {
-        max-height: 30vh;
+        max-width: 30vh;
     }
 
     figure {
         margin-right: 0;
         margin-bottom: 1vw;
         padding: 0;
+    }
+
+    figcaption {
+        margin-top: 5px;
+    }
+
+    .mv-bar.mv-ui {
+        display: none !important;
     }
 }
 
