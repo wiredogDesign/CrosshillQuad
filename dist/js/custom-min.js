@@ -1,0 +1,1 @@
+var trigger=document.querySelector("figcaption"),clicktarget=document.querySelector("aside");toggleClass=()=>{clicktarget.classList.toggle("aside-toggle")},trigger.addEventListener("click",toggleClass);
