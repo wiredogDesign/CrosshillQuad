@@ -74,7 +74,8 @@ figcaption {
 }
 
 img {
-    max-height: 60vh;
+    width: 52vh;
+    height: auto;
 }
 
 figure h1 {
