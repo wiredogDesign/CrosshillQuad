@@ -110,17 +110,6 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
-    "\/dist\/gfx\/banner.webp" : {
-      "ft" : 8388608,
-      "iS" : 52850,
-      "oA" : 0,
-      "oAP" : "\/dist\/gfx\/banner.webp",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-default",
-      "rq" : 75
-    },
     "\/dist\/img\/0CD10AB1-E6F8-4476-8DCD-B0EE3BE60250.jpeg" : {
       "ft" : 16384,
       "iS" : 218325,
@@ -581,7 +570,7 @@
     "bowerForceLatestOnConflict" : 1,
     "bowerTargetDependencyListType" : 1,
     "bowerUseExactVersion" : 0,
-    "browserRefreshDelay" : 0,
+    "browserRefreshDelay" : 1,
     "browserslistString" : ">0.2%, last 2 versions, Firefox ESR, not dead",
     "buildEnvironment" : 0,
     "buildFolderActive" : 0,

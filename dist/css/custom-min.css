@@ -49,7 +49,7 @@ header h2 {
 
 main {
     display: flex;
-    margin-top: 22vh;
+    margin-top: 14vw;
     padding: 1vw;
 }
 
@@ -95,7 +95,7 @@ p {
 @media screen and (max-width: 660px) {
     main {
         flex-direction: column;
-        margin-top: 14vh;
+        margin-top: 25vh;
     }
 
     header {
@@ -119,6 +119,12 @@ p {
 
     .mv-bar.mv-ui {
         display: none !important;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    main {
+        margin-top: 17vh;
     }
 }
 
