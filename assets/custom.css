@@ -30,7 +30,7 @@ header {
     /* height: 15vh; */
     /* padding: 1vw; */
     background: var(--cqc_blue);
-    background: no-repeat url(/dist/gfx/banner_desktop.webp);
+    background: no-repeat url(../../dist/gfx/banner_desktop.webp);
     background-size: cover;
 }
 
@@ -99,7 +99,7 @@ p {
     }
 
     header {
-        background: no-repeat url(/dist/gfx/banner_mobile.webp);
+        background: no-repeat url(../../dist/gfx/banner_mobile.webp);
         background-size: contain;
     }
 
