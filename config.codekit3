@@ -25,6 +25,14 @@
       "oAP" : "\/assets\/banner.afdesign",
       "oF" : 1
     },
+    "\/assets\/banner.afdesign~lock~" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/banner.afdesign~lock~",
+      "oF" : 0
+    },
     "\/assets\/custom.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -108,6 +116,30 @@
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/gfx\/banner_spirals.webp" : {
+      "ft" : 8388608,
+      "iS" : 44542,
+      "oA" : 0,
+      "oAP" : "\/dist\/gfx\/banner_spirals.webp",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/gfx\/bird.png" : {
+      "ft" : 32768,
+      "iS" : 4730,
+      "oA" : 0,
+      "oAP" : "\/dist\/gfx\/bird.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
       "rq" : 75
     },
     "\/dist\/img\/0CD10AB1-E6F8-4476-8DCD-B0EE3BE60250.jpeg" : {

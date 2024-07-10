@@ -6,7 +6,6 @@
     --trans:        hsla(0, 0%, 96%, 0.8);
     --cqc_blue:     hsl(181, 59%, 83%);
     --cqc_lilac:    hsl(317, 19%, 71%);
-    --font_size:    clamp(30px, 5vw, 45px);
 }
 
 * {
@@ -23,27 +22,32 @@ body {
 }
 
 header {
+    display: flex;
     position: fixed;
     top: 0;
     width: 100vw;
     height: 14vw;
-    background: no-repeat url(../../dist/gfx/banner_desktop.webp), var(--cqc_blue);
+    background: no-repeat url(../../dist/gfx/banner_spirals.webp);
     background-size: cover;
 }
 
-header h1,
-header h2 {
-    color: var(--blue);
-}
-
 header h1 {
-    font-size: var(--font_size);
+    justify-self: center;
+    align-self: center;
+    margin-left: 1vw;
+    font-size: clamp(26px, 6vw, 380%);
+    color: var(--blue);
+    filter: drop-shadow(0 0 4px white);
 }
 
-header h2 {
-    font-size: calc(var(--font_size) / 1.2);
+.monoton-regular {
+    font-family: "Monoton";
 }
 
+.small-header {
+    font-size: 50%;
+    color: var(--cqc_lilac);
+}
 main {
     display: flex;
     margin-top: 14vw;
@@ -92,12 +96,11 @@ p {
 @media screen and (max-width: 660px) {
     main {
         flex-direction: column;
-        margin-top: 22vh;
     }
 
     header {
-        height: 30vw;
-        background: no-repeat url(../../dist/gfx/banner_mobile.webp);
+        /* height: 30vw; */
+        background: no-repeat url(../../dist/gfx/banner_spirals.webp);
         background-size: contain;
     }
 
@@ -121,10 +124,16 @@ p {
 }
 
 @media screen and (max-width: 375px) {
-    main {
-        margin-top: 17vh;
+    header h1  {
+        font-size: clamp(24px, 6vw, 380%);
     }
 }
+
+
+
+
+
+
 
 
 /* Mavo related */
