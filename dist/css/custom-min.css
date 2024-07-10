@@ -26,11 +26,8 @@ header {
     position: fixed;
     top: 0;
     width: 100vw;
-    height: 24vh;
-    /* height: 15vh; */
-    /* padding: 1vw; */
-    background: var(--cqc_blue);
-    background: no-repeat url(../../dist/gfx/banner_desktop.webp);
+    height: 14vw;
+    background: no-repeat url(../../dist/gfx/banner_desktop.webp), var(--cqc_blue);
     background-size: cover;
 }
 
@@ -95,10 +92,11 @@ p {
 @media screen and (max-width: 660px) {
     main {
         flex-direction: column;
-        margin-top: 25vh;
+        margin-top: 22vh;
     }
 
     header {
+        height: 30vw;
         background: no-repeat url(../../dist/gfx/banner_mobile.webp);
         background-size: contain;
     }
