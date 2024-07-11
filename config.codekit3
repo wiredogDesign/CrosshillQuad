@@ -25,14 +25,6 @@
       "oAP" : "\/assets\/banner.afdesign",
       "oF" : 1
     },
-    "\/assets\/banner.afdesign~lock~" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/banner.afdesign~lock~",
-      "oF" : 0
-    },
     "\/assets\/custom.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -94,6 +86,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/fonts\/typed.woff2",
+      "oF" : 0
+    },
+    "\/dist\/fonts\/war_is_over.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/war_is_over.woff2",
       "oF" : 0
     },
     "\/dist\/gfx\/banner_desktop.webp" : {
