@@ -40,8 +40,8 @@ header h1 {
     filter: drop-shadow(0 0 4px white);
 }
 
-.monoton-regular {
-    font-family: "Monoton";
+.banner {
+    font-family: "Anton SC";
 }
 
 .small-header {
@@ -73,8 +73,8 @@ figure:hover {
 }
 
 figcaption {
-    min-width: 10vw;
-    padding: 0 20px;
+    min-width: 14vw;
+    padding: 0 0 0 0.8rem;
 }
 
 img {
