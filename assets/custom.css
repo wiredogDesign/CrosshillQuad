@@ -26,15 +26,15 @@ header {
     position: fixed;
     top: 0;
     width: 100vw;
-    height: 14vw;
+    height: 24vw;
     background: no-repeat url(../../dist/gfx/banner_spirals.webp);
     background-size: cover;
 }
 
 header h1 {
-    justify-self: center;
     align-self: center;
     margin-left: 1vw;
+    margin-bottom: 10vw;
     font-size: clamp(26px, 6vw, 380%);
     color: var(--blue);
     filter: drop-shadow(0 0 4px white);
