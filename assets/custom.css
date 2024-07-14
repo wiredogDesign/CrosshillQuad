@@ -6,6 +6,7 @@
     --trans:        hsla(0, 0%, 96%, 0.8);
     --cqc_blue:     hsl(181, 59%, 83%);
     --cqc_lilac:    hsl(317, 19%, 71%);
+    --yellow:       hsl(60, 83%, 66%);
 }
 
 * {
@@ -52,6 +53,10 @@ main {
     display: flex;
     margin-top: 14vw;
     padding: 1vw;
+    /* scroll snap */
+    scroll-behavior: smooth;
+    scroll-snap-destination: 0% 0%;
+    scroll-snap-type: mandatory;
 }
 
 figure {
@@ -63,12 +68,14 @@ figure {
     padding: 1vw 2vw 1vw 1vw;
     background: var(--trans);
     border-radius: 0.5vw;
-    filter: drop-shadow(0 0 0.6rem var(--blue));
+    filter: drop-shadow(0 0 0.3rem var(--blue));
     transition: filter .3s ease;
+    /* scroll snap */
+    scroll-snap-coordinate: 0% 0%;
 }
 
 figure:hover {
-    filter: drop-shadow(0 0 1rem var(--trans));
+    filter: drop-shadow(0 0 0.3rem var(--trans));
 
 }
 
@@ -129,13 +136,6 @@ p {
     }
 }
 
-
-
-
-
-
-
-
 /* Mavo related */
 
 /* keep editing toolbar compact in bottom right corner */
@@ -143,6 +143,7 @@ p {
 	position: fixed;
     top: 94%;
     right: 1%;
+    background: var(--blue);
 }
 
 /* hide the github blurb */
@@ -155,16 +156,26 @@ p {
     display: none;
 }
 
-[mv-mode=edit].image-description {
-    display: initial;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 10;
-    width: 100%;
-    padding: 0.3rem;
-    background: var(--trans);
+[mv-mode="edit"].image-description {
+	display: initial;
+	position: absolute;
+	top: -2rem;
+	left: 0;
+	width: 70%;
+	padding: 0.3rem;
+	border-radius: 0.4rem;
+	background: var(--yellow);
 }
+
+/* [mv-mode="edit"].image-description::after {
+	content: 'write image alt text ';
+	position: absolute;
+	top: -3.2rem;
+	left: 0;
+	padding: 0.5vw;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 80% 75%, 80% 100%, 70% 75%, 0% 75%);
+	background: yellow;
+} */
 
 /* provides a target area to add a new image */
 img.mv-empty {
