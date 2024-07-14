@@ -132,6 +132,7 @@ p {
 
     figcaption {
         margin-top: 5px;
+        padding: 0 0.4rem 0 0.8rem;
     }
 
     .mv-bar.mv-ui {
