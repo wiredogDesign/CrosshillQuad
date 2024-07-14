@@ -33,6 +33,7 @@ header {
 }
 
 header h1 {
+    position: relative;
     align-self: center;
     margin-left: 1vw;
     margin-bottom: 10vw;
@@ -46,6 +47,9 @@ header h1 {
 }
 
 .small-header {
+    position: absolute;
+    bottom: -1.8rem;
+    right: -5.1rem;
     font-size: 50%;
     color: var(--cqc_lilac);
 }
@@ -109,6 +113,11 @@ p {
         /* height: 30vw; */
         background: no-repeat url(../../dist/gfx/banner_spirals.webp);
         background-size: contain;
+    }
+
+    .small-header {
+        bottom: -0.5rem;
+        right: -2.3rem;
     }
 
     img {
