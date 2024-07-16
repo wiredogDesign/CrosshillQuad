@@ -25,14 +25,6 @@
       "oAP" : "\/assets\/banner.afdesign",
       "oF" : 1
     },
-    "\/assets\/banner.afdesign~lock~" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/banner.afdesign~lock~",
-      "oF" : 0
-    },
     "\/assets\/custom.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -88,6 +80,14 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/dist\/fonts\/cqc_minimal.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/cqc_minimal.woff2",
+      "oF" : 0
+    },
     "\/dist\/gfx\/banner_angie.webp" : {
       "ft" : 8388608,
       "iS" : 19298,
@@ -96,6 +96,17 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/gfx\/banner_colour_wash.webp" : {
+      "ft" : 8388608,
+      "iS" : 41134,
+      "oA" : 0,
+      "oAP" : "\/dist\/gfx\/banner_colour_wash.webp",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },

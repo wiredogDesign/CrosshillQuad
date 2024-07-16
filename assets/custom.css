@@ -9,6 +9,11 @@
     --yellow:       hsl(60, 83%, 66%);
 }
 
+@font-face {
+    font-family: 'cqc';
+    src: url(../../dist/fonts/cqc_minimal.woff2) format('woff2');
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -38,6 +43,7 @@ header h1 {
     margin-left: 1vw;
     margin-bottom: 10vw;
     font-size: clamp(26px, 6vw, 380%);
+    text-transform: uppercase;
     color: var(--blue);
     filter: drop-shadow(0 0 4px white);
 }
@@ -45,6 +51,7 @@ header h1 {
 .banner {
     font-family: "Anton SC";
     font-family: "Monoton";
+    font-family: "cqc";
 }
 
 .small-header {
