@@ -115,17 +115,18 @@ p {
 @media screen and (max-width: 660px) {
     main {
         flex-direction: column;
+        margin-top: 13vh;
     }
 
     header {
-        /* height: 30vw; */
+        height: 17vh;
         background: no-repeat url(../../dist/gfx/banner_spirals.webp);
         background-size: contain;
     }
 
     .small-header {
-        bottom: -0.5rem;
-        right: -2.3rem;
+        bottom: -2.6vh;
+        right: -10.3vw;
     }
 
     img {
