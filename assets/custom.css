@@ -42,7 +42,7 @@ header h1 {
     align-self: center;
     margin-left: 1vw;
     margin-bottom: 10vw;
-    font-size: clamp(26px, 6vw, 380%);
+    font-size: clamp(26px, 9vw, 380%);
     text-transform: uppercase;
     color: var(--blue);
     filter: drop-shadow(0 0 4px white);
@@ -58,7 +58,7 @@ header h1 {
     position: absolute;
     bottom: -1.8rem;
     right: -5.1rem;
-    font-size: 50%;
+    font-size: 55%;
     color: var(--cqc_lilac);
 }
 main {
