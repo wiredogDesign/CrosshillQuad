@@ -115,11 +115,11 @@ p {
 @media screen and (max-width: 660px) {
     main {
         flex-direction: column;
-        margin-top: 13vh;
+        margin-top: 20vw;
     }
 
     header {
-        height: 17vh;
+        height: 24vw;
         background: no-repeat url(../../dist/gfx/banner_spirals.webp);
         background-size: contain;
     }
@@ -149,7 +149,7 @@ p {
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 320px) {
     header h1  {
         font-size: clamp(24px, 6vw, 380%);
     }
