@@ -63,6 +63,14 @@
 				"caption_header": "We need more colour",
 				"caption_body": "Some of our talented neighbours got together to make the place even more beautiful."
 			}
+		},
+		{
+			"image": "https://wiredogdesign.github.io/CrosshillQuad/dist/img/3be0f0db-342d-44e3-a4a7-2bdea53cda5f.jpg",
+			"image_description": "Food items laid out on a blue wooden table",
+			"image_caption": {
+				"caption_header": "All these workers need feeding",
+				"caption_body": "A picnic in the sun before starting work again"
+			}
 		}
 	]
 }
