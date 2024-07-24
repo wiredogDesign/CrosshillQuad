@@ -9,14 +9,6 @@
 			}
 		},
 		{
-			"image": "https://wiredogdesign.github.io/CrosshillQuad/dist/img/0ECFC770-9C66-468C-9405-450BFE750AFE.jpeg",
-			"image_description": "Some stripey sofas and a very red plastic seat",
-			"image_caption": {
-				"caption_header": "Not just bits of crap",
-				"caption_body": "Although there was some classy-looking pieces&nbsp;"
-			}
-		},
-		{
 			"image": "https://wiredogdesign.github.io/CrosshillQuad/dist/img/975B4A61-5E1B-4FCE-8032-7B1BFD49D1C4_1_105_c.jpeg",
 			"image_description": "Items of household furniture dumped in an open private space",
 			"image_caption": {
@@ -30,6 +22,14 @@
 			"image_caption": {
 				"caption_body": "In the years before anyone knew about recycling, no household item was spared from abandonment - even a powerwash canister and cardboard boxes.",
 				"caption_header": "Apart from ..."
+			}
+		},
+		{
+			"image": "https://wiredogdesign.github.io/CrosshillQuad/dist/img/0ECFC770-9C66-468C-9405-450BFE750AFE.jpeg",
+			"image_description": "Some stripey sofas and a very red plastic seat",
+			"image_caption": {
+				"caption_header": "Not just bits of crap",
+				"caption_body": "Although there was some classy-looking pieces&nbsp;"
 			}
 		},
 		{
