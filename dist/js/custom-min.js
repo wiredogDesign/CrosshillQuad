@@ -1,1 +1,1 @@
-var trigger=document.querySelector("figcaption"),clicktarget=document.querySelector("aside");toggleClass=()=>{clicktarget.classList.toggle("aside-toggle")},trigger.addEventListener("click",toggleClass);
+toggleClass=()=>{document.querySelector(".banner").classList.add("animate-banner"),document.querySelector(".small-header").classList.add("animate-span")},window.addEventListener("load",toggleClass);
