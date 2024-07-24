@@ -87,6 +87,14 @@
 				"caption_header": "Age is no barrier",
 				"caption_body": "We're not saying there are Dickensian conditions, but if your dressed for work then ..."
 			}
+		},
+		{
+			"image": "https://wiredogdesign.github.io/CrosshillQuad/dist/img/3316c468-0748-42f1-8255-593c518552d4.jpg",
+			"image_description": "A cat walks towards the camera",
+			"image_caption": {
+				"caption_header": "Not everyone wants to take part",
+				"caption_body": "Cats just like to oversee others."
+			}
 		}
 	]
 }
