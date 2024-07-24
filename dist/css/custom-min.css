@@ -37,34 +37,47 @@ header {
     background-size: cover;
 }
 
-header h1 {
+.banner {
     position: relative;
     align-self: center;
-    margin-left: 1vw;
+    margin-left: -100%;
     margin-bottom: 10vw;
+    font-family: "cqc";
     font-size: clamp(26px, 9vw, 380%);
     text-transform: uppercase;
     color: var(--blue);
     filter: drop-shadow(0 0 4px white);
 }
 
-.banner {
+/* .banner {
     font-family: "Anton SC";
-    font-family: "Monoton";
-    font-family: "cqc";
+    font-family: "Monoton";  
+} */
+
+.animate-banner {
+    margin-left: 1vw;
+    transition: margin-left 1.2s cubic-bezier(.73,-0.01,.47,1.37) .6s
 }
+
 
 .small-header {
     position: absolute;
+    top: -150%;
     bottom: -1.8rem;
     right: -5.1rem;
     font-size: 55%;
     color: var(--cqc_lilac);
 }
+
+.animate-span {
+    top: 100%;
+    transition: top .8s cubic-bezier(.73,-0.01,.47,1.37) 1.8s;
+}
+
 main {
     display: flex;
     margin-top: 14vw;
-    padding: 1vw;
+    padding-top: 1vw;
     /* scroll snap */
     scroll-behavior: smooth;
     scroll-snap-destination: 0% 0%;
@@ -84,6 +97,14 @@ figure {
     transition: filter .3s ease;
     /* scroll snap */
     scroll-snap-coordinate: 0% 0%;
+}
+
+figure:first-of-type {
+	border-radius: 0 0.5vw 0.5vw 0;
+}
+
+figure:last-of-type {
+	border-radius: 0.5vw 0 0 0.5vw;
 }
 
 figure:hover {

@@ -45,7 +45,7 @@
       "oA" : 0,
       "oAP" : "\/dist\/js\/custom-min.js",
       "oF" : 2,
-      "sC" : 3,
+      "sC" : 0,
       "tS" : 0
     },
     "\/cqc.json" : {
@@ -143,32 +143,6 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
-    "\/dist\/gfx\/bird.png" : {
-      "ft" : 32768,
-      "iS" : 4730,
-      "oA" : 0,
-      "oAP" : "\/dist\/gfx\/bird.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
-    "\/dist\/img\/0CD10AB1-E6F8-4476-8DCD-B0EE3BE60250.jpeg" : {
-      "ft" : 16384,
-      "iS" : 218325,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/0CD10AB1-E6F8-4476-8DCD-B0EE3BE60250.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/dist\/img\/0ECFC770-9C66-468C-9405-450BFE750AFE.jpeg" : {
       "ft" : 16384,
       "iS" : 269166,
@@ -214,19 +188,6 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/img\/975B4A61-5E1B-4FCE-8032-7B1BFD49D1C4_1_105_c.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/dist\/img\/Alasdair Gray - Cowcaddens Streetscape in the Fifties.jpg" : {
-      "ft" : 16384,
-      "iS" : 489040,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/img\/Alasdair Gray - Cowcaddens Streetscape in the Fifties.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,

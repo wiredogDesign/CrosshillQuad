@@ -1,7 +1,5 @@
-var trigger = document.querySelector('figcaption');
-var clicktarget = document.querySelector('aside');
-
 toggleClass = () => {
-    clicktarget.classList.toggle('aside-toggle');
+    document.querySelector('.banner').classList.add('animate-banner');
+    document.querySelector('.small-header').classList.add('animate-span');
 }
-trigger.addEventListener('click', toggleClass);
+window.addEventListener('load', toggleClass)
