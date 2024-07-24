@@ -1,14 +1,6 @@
 {
 	"image_container": [
 		{
-			"image": "https://wiredogdesign.github.io/CrosshillQuad/dist/img/975B4A61-5E1B-4FCE-8032-7B1BFD49D1C4_1_105_c.jpeg",
-			"image_description": "Items of household furniture dumped in an open private space",
-			"image_caption": {
-				"caption_body": "<p>The quad was mainly a dumping ground for landlords</p>",
-				"caption_header": "In the beginning"
-			}
-		},
-		{
 			"image": "https://wiredogdesign.github.io/CrosshillQuad/dist/img/CED7AE27-8C18-49B1-9DF5-AF84ACD0D646_1_105_c.jpeg",
 			"image_description": "A view of the quad from a high window - it looks dull and uninteresting",
 			"image_caption": {
@@ -17,10 +9,25 @@
 			}
 		},
 		{
-			"image": "https://wiredogdesign.github.io/CrosshillQuad/dist/img/99BEFDC0-1828-4B15-A078-F0E5EFA50C77_1_105_c.jpeg",
+			"image": "https://wiredogdesign.github.io/CrosshillQuad/dist/img/0ECFC770-9C66-468C-9405-450BFE750AFE.jpeg",
+			"image_description": "Some stripey sofas and a very red plastic seat",
+			"image_caption": {
+				"caption_body": "Although there was some classy-looking pieces&nbsp;"
+			}
+		},
+		{
+			"image": "https://wiredogdesign.github.io/CrosshillQuad/dist/img/975B4A61-5E1B-4FCE-8032-7B1BFD49D1C4_1_105_c.jpeg",
 			"image_description": "Items of household furniture dumped in an open private space",
 			"image_caption": {
-				"caption_body": "Even more household junk",
+				"caption_body": "The quad was mainly a dumping ground for landlords",
+				"caption_header": "In the beginning"
+			}
+		},
+		{
+			"image": "https://wiredogdesign.github.io/CrosshillQuad/dist/img/99BEFDC0-1828-4B15-A078-F0E5EFA50C77_1_105_c.jpeg",
+			"image_description": "Remains of a black sofa, cardboard boxes and a large yellow canister ",
+			"image_caption": {
+				"caption_body": "In the years before anyone knew about recycling, no household item was spared from abandonment - even a powerwash canister and cardboard boxes.",
 				"caption_header": "Apart from ..."
 			}
 		},
