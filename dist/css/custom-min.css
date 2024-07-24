@@ -11,7 +11,7 @@
 
 @font-face {
     font-family: 'cqc';
-    src: url(../../dist/fonts/cqc_minimal.woff2) format('woff2');
+    src: url(../../dist/fonts/impact_min.woff2) format('woff2');
 }
 
 * {
@@ -64,13 +64,13 @@ header {
     position: absolute;
     top: -150%;
     bottom: -1.8rem;
-    right: -5.1rem;
+    right: -5.4rem;
     font-size: 55%;
     color: var(--cqc_lilac);
 }
 
 .animate-span {
-    top: 100%;
+    top: 75%;
     transition: top .8s cubic-bezier(.73,-0.01,.47,1.37) 1.8s;
 }
 
