@@ -95,6 +95,14 @@
 				"caption_header": "Not everyone wants to take part",
 				"caption_body": "Cats just like to oversee others."
 			}
+		},
+		{
+			"image": "https://wiredogdesign.github.io/CrosshillQuad/dist/img/IMG_2249.jpeg",
+			"image_description": "A teddy bear hangs from a washing line in a garden",
+			"image_caption": {
+				"caption_header": "A place to hang out",
+				"caption_body": "Even if you're a bear"
+			}
 		}
 	]
 }
