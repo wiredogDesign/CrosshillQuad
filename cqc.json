@@ -60,7 +60,7 @@
 			"image": "https://wiredogdesign.github.io/CrosshillQuad/dist/img/7cc245cf-ce1a-445a-b1a0-85c04f1b0fe4.jpg",
 			"image_description": "People stencilling colourful flower shapes on a white wall",
 			"image_caption": {
-				"caption_header": "We need more colour",
+				"caption_header": "But we need more colour",
 				"caption_body": "Some of our talented neighbours got together to make the place even more beautiful."
 			}
 		},
@@ -69,7 +69,39 @@
 			"image_description": "Food items laid out on a blue wooden table",
 			"image_caption": {
 				"caption_header": "All these workers need feeding",
-				"caption_body": "A picnic in the sun before starting work again"
+				"caption_body": "A picnic in the sun before starting work again."
+			}
+		},
+		{
+			"image": "https://wiredogdesign.github.io/CrosshillQuad/dist/img/75bbec65-f4ff-451b-891f-bf850b366d82.jpg",
+			"image_description": "Some people gardening beside a colourful wall",
+			"image_caption": {
+				"caption_header": "And back to work",
+				"caption_body": "Keeping the place in tip-top condition by removing sycamore seedlings."
+			}
+		},
+		{
+			"image": "https://wiredogdesign.github.io/CrosshillQuad/dist/img/646B0001-C6B5-4EF1-B7C1-39194518980A.jpeg",
+			"image_description": "A toddler in orange overalls pushes a large wheelbarrow",
+			"image_caption": {
+				"caption_header": "Age is no barrier",
+				"caption_body": "We're not saying there are Dickensian conditions, but if your dressed for work then ..."
+			}
+		},
+		{
+			"image": "https://wiredogdesign.github.io/CrosshillQuad/dist/img/3316c468-0748-42f1-8255-593c518552d4.jpg",
+			"image_description": "A cat walks towards the camera",
+			"image_caption": {
+				"caption_header": "Not everyone wants to take part",
+				"caption_body": "Cats just like to oversee others."
+			}
+		},
+		{
+			"image": "https://wiredogdesign.github.io/CrosshillQuad/dist/img/IMG_2249.jpeg",
+			"image_description": "A teddy bear hangs from a washing line in a garden",
+			"image_caption": {
+				"caption_header": "A place to hang out",
+				"caption_body": "Even if you're a bear"
 			}
 		}
 	]
