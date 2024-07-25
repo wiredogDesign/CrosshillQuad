@@ -145,18 +145,21 @@ p {
     }
 
     img {
-        max-width: 30vh;
+        width: 100%;
+        height: 100%;
     }
 
     figure {
+        flex-direction: column-reverse;
+        max-height: initial;
         margin-right: 0;
-        margin-bottom: 1vw;
+        margin-bottom: 0;
         padding: 0;
     }
 
     figcaption {
         margin-top: 5px;
-        padding: 0 0.4rem 0 0.8rem;
+        padding: 0 0.4rem 4vw 0.8rem;
     }
 
     .mv-bar.mv-ui {
