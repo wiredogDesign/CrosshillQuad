@@ -78,25 +78,19 @@ main {
     display: flex;
     margin-top: 14vw;
     padding-top: 1vw;
-    /* scroll snap */
-    scroll-behavior: smooth;
-    scroll-snap-destination: 0% 0%;
-    scroll-snap-type: mandatory;
 }
 
 figure {
     display: flex;
     flex: 0 0 40vw;
     /* min-width: 560px; */
-    max-height: 65vh;
+    max-height: 58vh;
     margin-right: 1vw;
     padding: 1vw 2vw 1vw 1vw;
     background: var(--trans);
     border-radius: 0.5vw;
     filter: drop-shadow(0 0 0.3rem var(--blue));
     transition: filter .3s ease;
-    /* scroll snap */
-    scroll-snap-coordinate: 0% 0%;
 }
 
 figure:first-of-type {
