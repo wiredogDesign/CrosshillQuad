@@ -82,8 +82,7 @@ main {
 
 figure {
     display: flex;
-    flex: 0 0 40vw;
-    /* min-width: 560px; */
+    align-items: center;
     max-height: 58vh;
     margin-right: 1vw;
     padding: 1vw 2vw 1vw 1vw;
@@ -112,8 +111,10 @@ figcaption {
 }
 
 img {
-    width: 52vh;
-    height: auto;
+    width: 28vw;
+    height: 100%;
+    -o-object-fit: contain;
+    object-fit: contain;
 }
 
 figure h1 {
@@ -125,6 +126,19 @@ figure h1 {
 
 p {
     color: var(--black);
+}
+
+footer p {
+    position: fixed;
+    top: 95.7%;
+    margin-left: 1vw;
+}
+
+footer a {
+	padding: 0.4rem 0.8rem;
+	color: white;
+	background: var(--blue);
+	border-radius: 0.3rem;
 }
 
 @media screen and (max-width: 660px) {
