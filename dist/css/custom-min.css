@@ -131,6 +131,7 @@ p {
 footer p {
     position: fixed;
     top: 95.7%;
+    bottom: 0;
     margin-left: 1vw;
 }
 
@@ -164,7 +165,8 @@ footer a {
     }
 
     figure {
-        flex-direction: column-reverse;
+        flex-direction: column;
+        align-items: initial;
         max-height: initial;
         margin-right: 0;
         margin-bottom: 0;
@@ -174,6 +176,18 @@ footer a {
     figcaption {
         margin-top: 5px;
         padding: 0 0.4rem 4vw 0.8rem;
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        height: 10vh;
+    }
+
+    footer p {
+        position: initial;
+        margin-right: 2vw;
     }
 
     .mv-bar.mv-ui {
