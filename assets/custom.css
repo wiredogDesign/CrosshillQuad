@@ -220,6 +220,10 @@ footer a {
     display: none;
 }
 
+[mv-mode="edit"] img {
+	min-width: 300px;
+}
+
 [mv-mode="edit"].image-description {
 	display: initial;
 	position: absolute;

@@ -2,4 +2,4 @@ toggleClass = () => {
     document.querySelector('.banner').classList.add('animate-banner');
     document.querySelector('.small-header').classList.add('animate-span');
 }
-window.addEventListener('load', toggleClass)
+window.addEventListener('DOMContentLoaded', toggleClass)
