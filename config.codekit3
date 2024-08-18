@@ -17,6 +17,19 @@
       "oAP" : "\/.gitignore",
       "oF" : 1
     },
+    "\/apple-touch-icon.png" : {
+      "ft" : 32768,
+      "iS" : 44919,
+      "oA" : 0,
+      "oAP" : "\/apple-touch-icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/assets\/banner.afdesign" : {
       "cB" : 0,
       "ft" : 8192,
@@ -26,10 +39,10 @@
       "oF" : 1
     },
     "\/assets\/custom.css" : {
-      "aP" : 1,
+      "aP" : 0,
       "bl" : 0,
       "ci" : 0,
-      "co" : 0,
+      "co" : 1,
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
@@ -88,6 +101,14 @@
       "oAP" : "\/dist\/fonts\/cqc_minimal.woff2",
       "oF" : 0
     },
+    "\/dist\/fonts\/impact_min.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/fonts\/impact_min.woff2",
+      "oF" : 0
+    },
     "\/dist\/gfx\/banner_angie.webp" : {
       "ft" : 8388608,
       "iS" : 19298,
@@ -143,12 +164,23 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
-    "\/dist\/img\/0ECFC770-9C66-468C-9405-450BFE750AFE.jpeg" : {
+    "\/dist\/gfx\/fb_qr.webp" : {
+      "ft" : 8388608,
+      "iS" : 3442,
+      "oA" : 0,
+      "oAP" : "\/dist\/gfx\/fb_qr.webp",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/dist\/img\/0ab2b2c7-b1ac-4989-ab23-db7f49d2fa12.jpg" : {
       "ft" : 16384,
-      "iS" : 269166,
+      "iS" : 210123,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/img\/0ECFC770-9C66-468C-9405-450BFE750AFE.jpg",
+      "oAP" : "\/dist\/img\/0ab2b2c7-b1ac-4989-ab23-db7f49d2fa12.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -156,12 +188,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/dist\/img\/84F72A50-66C7-4933-89C7-917E0C45AC73_1_105_c.jpeg" : {
+    "\/dist\/img\/0ecfc770-9c66-468c-9405-450bfe750afe.jpeg" : {
       "ft" : 16384,
-      "iS" : 389408,
+      "iS" : 191202,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/img\/84F72A50-66C7-4933-89C7-917E0C45AC73_1_105_c.jpg",
+      "oAP" : "\/dist\/img\/0ecfc770-9c66-468c-9405-450bfe750afe.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -169,12 +201,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/dist\/img\/99BEFDC0-1828-4B15-A078-F0E5EFA50C77_1_105_c.jpeg" : {
+    "\/dist\/img\/1c671ab1-24dd-4077-8637-3351afd7e7e6.jpg" : {
       "ft" : 16384,
-      "iS" : 279553,
+      "iS" : 236816,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/img\/99BEFDC0-1828-4B15-A078-F0E5EFA50C77_1_105_c.jpg",
+      "oAP" : "\/dist\/img\/1c671ab1-24dd-4077-8637-3351afd7e7e6.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -182,12 +214,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/dist\/img\/975B4A61-5E1B-4FCE-8032-7B1BFD49D1C4_1_105_c.jpeg" : {
+    "\/dist\/img\/3be0f0db-342d-44e3-a4a7-2bdea53cda5f.jpg" : {
       "ft" : 16384,
-      "iS" : 304452,
+      "iS" : 236025,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/img\/975B4A61-5E1B-4FCE-8032-7B1BFD49D1C4_1_105_c.jpg",
+      "oAP" : "\/dist\/img\/3be0f0db-342d-44e3-a4a7-2bdea53cda5f.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -195,12 +227,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/dist\/img\/CED7AE27-8C18-49B1-9DF5-AF84ACD0D646_1_105_c.jpeg" : {
+    "\/dist\/img\/4e376ac6-d912-4f4b-97fd-5c809210997c.jpg" : {
       "ft" : 16384,
-      "iS" : 362538,
+      "iS" : 311760,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/img\/CED7AE27-8C18-49B1-9DF5-AF84ACD0D646_1_105_c.jpg",
+      "oAP" : "\/dist\/img\/4e376ac6-d912-4f4b-97fd-5c809210997c.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -208,12 +240,181 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/dist\/img\/F2224028-0821-47A2-BE9A-2249FF32372D.jpeg" : {
+    "\/dist\/img\/6fc2030a-1566-44e6-9a11-5a26ae480f09.jpg" : {
       "ft" : 16384,
-      "iS" : 249328,
+      "iS" : 173002,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/img\/F2224028-0821-47A2-BE9A-2249FF32372D.jpg",
+      "oAP" : "\/dist\/img\/6fc2030a-1566-44e6-9a11-5a26ae480f09.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/img\/7cc245cf-ce1a-445a-b1a0-85c04f1b0fe4.jpg" : {
+      "ft" : 16384,
+      "iS" : 271325,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/7cc245cf-ce1a-445a-b1a0-85c04f1b0fe4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/img\/54ce5ea0-9d5b-497a-9dc2-055340d1c4a4.jpg" : {
+      "ft" : 16384,
+      "iS" : 211693,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/54ce5ea0-9d5b-497a-9dc2-055340d1c4a4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/img\/75bbec65-f4ff-451b-891f-bf850b366d82.jpg" : {
+      "ft" : 16384,
+      "iS" : 238613,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/75bbec65-f4ff-451b-891f-bf850b366d82.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/img\/84f72a50-66c7-4933-89c7-917e0c45ac73_1_105_c.jpeg" : {
+      "ft" : 16384,
+      "iS" : 259539,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/84f72a50-66c7-4933-89c7-917e0c45ac73_1_105_c.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/img\/99befdc0-1828-4b15-a078-f0e5efa50c77_1_105_c.jpeg" : {
+      "ft" : 16384,
+      "iS" : 189641,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/99befdc0-1828-4b15-a078-f0e5efa50c77_1_105_c.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/img\/646b0001-c6b5-4ef1-b7c1-39194518980a.jpeg" : {
+      "ft" : 16384,
+      "iS" : 144353,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/646b0001-c6b5-4ef1-b7c1-39194518980a.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/img\/802b3db2-8be2-4044-b02d-cc53c6882c07.jpg" : {
+      "ft" : 16384,
+      "iS" : 241503,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/802b3db2-8be2-4044-b02d-cc53c6882c07.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/img\/975b4a61-5e1b-4fce-8032-7b1bfd49d1c4_1_105_c.jpeg" : {
+      "ft" : 16384,
+      "iS" : 206686,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/975b4a61-5e1b-4fce-8032-7b1bfd49d1c4_1_105_c.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/img\/3316c468-0748-42f1-8255-593c518552d4.jpg" : {
+      "ft" : 16384,
+      "iS" : 86294,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/3316c468-0748-42f1-8255-593c518552d4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/img\/26879165-eeb8-466a-8d3f-c1edb504f728.jpeg" : {
+      "ft" : 16384,
+      "iS" : 172761,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/26879165-eeb8-466a-8d3f-c1edb504f728.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/img\/ced7ae27-8c18-49b1-9df5-af84acd0d646_1_105_c.jpeg" : {
+      "ft" : 16384,
+      "iS" : 234558,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/ced7ae27-8c18-49b1-9df5-af84acd0d646_1_105_c.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/img\/f2224028-0821-47a2-be9a-2249ff32372d.jpeg" : {
+      "ft" : 16384,
+      "iS" : 165794,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/f2224028-0821-47a2-be9a-2249ff32372d.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/img\/IMG_2249.jpeg" : {
+      "ft" : 16384,
+      "iS" : 127095,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/img\/IMG_2249.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -265,6 +466,14 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/favicon.ico" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/favicon.ico",
+      "oF" : 0
+    },
     "\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -282,9 +491,9 @@
   },
   "projectAttributes" : {
     "creationDate" : 742206251.221439,
-    "displayValue" : "CrosshillQuad",
-    "displayValueWasSetByUser" : 0,
-    "iconImageName" : "brackets-pink",
+    "displayValue" : "CrosshillQuad MAVO",
+    "displayValueWasSetByUser" : 1,
+    "iconImageName" : "\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0
   },
   "projectSettings" : {
