@@ -164,14 +164,14 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
-    "\/dist\/gfx\/fb_qr.webp" : {
+    "\/dist\/gfx\/fbqr.webp" : {
       "ft" : 8388608,
-      "iS" : 3442,
+      "iS" : 3098,
       "oA" : 0,
-      "oAP" : "\/dist\/gfx\/fb_qr.webp",
+      "oAP" : "\/dist\/gfx\/fbqr.webp",
       "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },

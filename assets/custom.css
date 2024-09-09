@@ -124,6 +124,7 @@ figure h1 {
 }
 
 p {
+    hyphens: auto;
     color: var(--black);
 }
 
